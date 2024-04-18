@@ -1,0 +1,18 @@
+.grid_item {
+    
+    width: 6.25%; /* 100% divided by 16 */
+    height: 6.25%; /* 100% divided by 16 */
+    box-sizing: border-box;
+}
+.grid {
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; /* Adjust width as needed */
+    margin: 0 auto;
+    height: 50vh;
+}
+
+.hover {
+    background-color: blue;
+}
